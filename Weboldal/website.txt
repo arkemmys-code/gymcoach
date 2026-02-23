@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hardcore Personal Trainer</title>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div><strong>HARDCORE TRAINER</strong></div>
+    <div>
+        <a href="#about">Rólam</a>
+        <a href="#services">Szolgáltatások</a>
+        <a href="#contact">Kapcsolat</a>
+    </div>
+</nav>
+
+<header>
+    <div class="hero fade">
+        <h1>Átalakítom a tested</h1>
+        <p>Nincs kifogás. Csak eredmény.</p>
+        <a href="#contact" class="btn">Kezdjük el</a>
+    </div>
+</header>
+
+<section id="about" class="fade">
+    <h2 class="section-title">Rólam</h2>
+    <div class="about">
+        <p>10+ év tapasztalat. 100+ sikeres átalakulás.
+        Fegyelem. Kemény munka. Látható eredmény.</p>
+    </div>
+</section>
+
+<section class="stats fade">
+    <div class="stat">
+        <h2 class="counter" data-target="120">0</h2>
+        <p>Sikeres átalakulás</p>
+    </div>
+    <div class="stat">
+        <h2 class="counter" data-target="10">0</h2>
+        <p>Év tapasztalat</p>
+    </div>
+    <div class="stat">
+        <h2 class="counter" data-target="5000">0</h2>
+        <p>Levezetett edzés</p>
+    </div>
+</section>
+
+<section id="services" class="fade">
+    <h2 class="section-title">Szolgáltatások</h2>
+    <div class="services">
+        <div class="card">
+            <img src="images/edzes-icon.png" alt="Személyi edzés ikon">
+            <h3>Személyi edzés</h3>
+            <p>Egyedi edzésterv és motiváció.</p>
+        </div>
+        <div class="card">
+            <img src="images/online-icon.png" alt="Online coaching ikon">
+            <h3>Online coaching</h3>
+            <p>Teljes online támogatás.</p>
+        </div>
+        <div class="card">
+            <img src="images/etrend-icon.png" alt="Étrend ikon">
+            <h3>Étrend</h3>
+            <p>Célzott étrend izomnöveléshez.</p>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials fade">
+    <h2 class="section-title">Eredmények</h2>
+    <p>Valódi átalakulások. Valódi munka.</p>
+    <img src="images/atvaltas.jpg" alt="Előtte-utána">
+</section>
+
+<section id="contact" class="fade">
+    <h2 class="section-title">Kapcsolat</h2>
+    <div class="contact">
+        <input type="text" placeholder="Név">
+        <input type="email" placeholder="Email">
+        <textarea rows="5" placeholder="Üzenet"></textarea>
+        <br>
+        <a href="#" class="btn">Időpontot kérek</a>
+    </div>
+</section>
+
+<footer>
+    © 2026 Hardcore Personal Trainer
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
